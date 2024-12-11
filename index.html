@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <style>
+      div {
+        background-color: darkblue;
+        height: 600px;
+        width: 800px;
+        display: inline-table;
+        position: relative;
+      }
+      .B1 {
+        height: 150px;
+        width: 175px;
+        background-color: aliceblue;
+        box-sizing: border-box;
+        margin: 5px;
+        margin-top: 50px;
+        z-index: 3;
+      }
+      button{
+        height: 40px;
+        width: 100px;
+        color: blue;
+        background-color:  cyan;
+        border: 2px solid white;
+        font-family: Arial, Helvetica, sans-serif ;
+        font-weight: bolder;
+      }
+      input{
+        height: 25px;
+        width: 400px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div>
+        <div class="B1">
+          <br>
+          <i class="fa-solid fa-location-dot fa-flip fa-2xl" style="color: #74c0fc"></i>
+          <p style="font-family: Arial, Helvetica, sans-serif;"><b>OUR MAIN OFFICE</b></p>
+          <p style=" font-family: Arial, Helvetica, sans-serif;font-size: small "> Soho 94 Broadway St New <br />York,NY 1001</p>
+        </div>
+        <div class="B1">
+          <br /><i class="fa-solid fa-phone fa-shake fa-2xl" style="color: #74c0fc"  ></i>
+          <p style="font-family: Arial, Helvetica, sans-serif;"><b>PHONE NUMBER</b></p>
+          <p style="font-family: Arial, Helvetica, sans-serif;font-size: small">2-555-362-255 <br />888-0123-4567(Toll free)</p>
+        </div>
+        <div class="B1">
+          <br /><i class="fa-sharp fa-solid fa-fax fa-bounce fa-2xl" style="color: #74c0fc"></i>
+          <p style="font-family: Arial, Helvetica, sans-serif;"><b> FAX</b></p>
+          <p style="font-family: Arial, Helvetica, sans-serif;font-size: small">1-234-567-890</p>
+        </div>
+        <div class="B1">
+          <br /><i class="fa-sharp fa-solid fa-envelope fa-fade fa-2xl" style="color: #74c0fc"></i>
+          <p style="font-family: Arial, Helvetica, sans-serif;"><b>EMAIL</b></p>
+        <p style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: small  ">
+        <a href="mailto:hello@gmmail.com">hello@gmail.com</a>
+          </p>
+        </div>
+
+        <div  
+        style="
+            height: 370px;
+            width: 600px;
+            background-color: cyan;
+            bottom: 50px;
+            z-index: 1;
+          "
+        >
+          <br /><br />
+          <h1 style="font-family: Arial, Helvetica, sans-serif; color:darkblue;">Contact Us</h1>
+          <input type="text" placeholder="Enter your name" name="fname" size="50"/> <br /> <br />
+          <input type="text" placeholder="Enter a valid email address"name="address"size="50"/><br /><br />
+          <textarea name="address" id="address" rows="5" cols="54"> </textarea> <br /> <br>
+          <button type="submit">SUBMIT</button>
+        </div>
+      </div>
+    </center>
+  </body>
+</html>
